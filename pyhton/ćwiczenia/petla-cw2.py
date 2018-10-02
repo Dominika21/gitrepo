@@ -6,10 +6,19 @@
 
 
 def main(args):
-    n = int(input("Podaj liczbę n: ")
-    m = int(input("Podaj liczbę m: ")
+    n = int(input("Podaj liczbę n: "))
+    while n < 1: 
+        print("Błędne dane! ")
+        n = int(input("Podaj liczbę n: "))
+        
+    m = int(input("Podaj liczbę m: "))   
+    while m <= n: 
+         print("Błędne dane! ")
+         m = int(input("Podaj liczbę m: "))   
+         
     for liczba in range (n, m +1):
-        print(liczba, ""
+        print(liczba, " ", end="")
+        
     return 0
 
 if __name__ == '__main__':
