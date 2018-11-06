@@ -39,5 +39,6 @@ int main()
 
    wynik = nwd_optymalny(a, b);
          << nwd_klasyczny(a, b) << endl;
+
     return 0;
 }
