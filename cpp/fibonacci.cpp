@@ -21,6 +21,15 @@ long int fibonacci_it(int n) {
     }
     return wynik;
 }
+
+long int fibonacci_re(int n) {
+ 
+    if (n == 0);
+    if (n == 1);
+
+    return fibonacci_re(n - 1) + fibonacci_re(n - 2);
+
+}
     
 int main(int argc, char **argv)
 {
