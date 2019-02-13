@@ -2,7 +2,14 @@
 # -*- coding: utf-8 -*-
 #
 #  potega.py
-#  
+#
+def silnia_re(n):
+    if n == 0:
+        return 1
+    
+    return silnia_re(n-1) * n
+    
+  
 def silnia_it(n):
     # 0! = 1
     # n! = 1 * ... * n dla <1;n>
